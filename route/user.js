@@ -4,7 +4,7 @@ const router = express.Router()
 const {registerController, loginController} = require('../controller/userController')
 
 router.get('/',(req, res, next)=>{
-    res.send("USER API // V1")
+    res.send("USER API // V1");
 })
 
 router.post('/register',registerController);
