@@ -1,5 +1,6 @@
 const db = require('mysql2')
 
+
 const Database = db.createPool({
     host:'localhost',
     user: 'root',

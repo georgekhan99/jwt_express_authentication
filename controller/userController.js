@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const UserModel = require('../model/userModel');
 
-exports.registerController = (req, res, next) => {
+exports.registerController =  (req, res, next) => {
     const { email, password} = req.body;
     bcrypt.hash(password, 10)
         .then((hash) => {
