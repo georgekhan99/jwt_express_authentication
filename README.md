@@ -6,4 +6,4 @@
 
 # Get A Token
 
-#Inseted To Your Database As Mysql
+#Inserted To Your Database As Mysql
